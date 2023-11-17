@@ -97,8 +97,50 @@ section.central-section-flex > div{
     background-color: blueviolet;
 }
 
-
-
+/* Sezione diversa  */
+.last-section-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    padding: 5px;
+    min-height: 600px;
+    gap: 10px;
+}
+#tecnology{
+    min-width:80%;
+    min-height: 200px;
+}
+.last-section-flex > div > h1{
+    background-color: white;
+    display: block;
+    min-height: 50px;
+}
+.last-section-flex > div >p{
+    background-color: red;
+    display: block;
+    height: 100%;
+}
+.last-section-flex > figure{
+    min-width: 80%;
+    min-height: 400px;
+    background-color: darkblue;
+}
+.last-section-flex > div{
+    min-width:40%;
+    min-height: 50px;
+}
+.last-section-flex > div > h2{
+    background-color: white;
+    display: block;
+    min-height: 50px;
+}
+.download{
+    min-width: 100px;
+    min-height: 40px;
+    background-color: yellow;
+}
 
 
 
