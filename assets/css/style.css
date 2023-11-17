@@ -68,6 +68,37 @@ div.button-container-flex > button{
 }
 
 
+/* Sezione centrale */
+.central-section-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    padding: 5px;
+    min-height: 400px;
+    gap: 10px;
+}
+section.central-section-flex > div, article{
+    min-width:300px;
+    min-height: 200px;
+}
+article > h1, p{
+    display: block;
+    min-height: 150px;
+}
+article > h1{
+    background-color: white;
+}
+article > p{
+    background-color: red;
+}
+section.central-section-flex > div{
+    background-color: blueviolet;
+}
+
+
+
 
 
 
